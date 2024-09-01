@@ -1,0 +1,38 @@
+@media (max-width:800px) { /* 모바일용 */
+
+    .pc {display: none !important;}
+    
+    #main {text-align: center;}
+    #main h3 {font-size:26px; position: static;}
+    #main img {width: 100%; margin-top: 20px;}
+    #main p {font-size: 18px; position: static; margin-top: 20px;}
+    
+    #bnr {margin-top: 60px;}
+    #bnr ul li {float: none; width: auto;}
+    #bnr ul li a h3 {left: 10px; top: 10px; font-size: 14px;}
+    
+    #prd h2 {font-size: 16px; line-height: 60px;}
+    #prd ul li {width: 50%;}
+    #prd ul li a p {font-size: 14px; bottom: 5%;}
+    
+    footer {margin-top: 0px; padding: 40px 3%;}
+    footer .sc {position: absolute; top: 200px; right: 0; height: 50px;}
+    footer .logo {float: none; margin-right: 0px;}
+    footer address {float: none; margin-top: 10px;}
+    footer address ul {margin-top: 4px;}
+    
+}
+
+
+
+
+
+
+
+@media (min-width:801px) { /* PC용 */
+
+    .mob {display: none !important;}
+    
+} 
+
+
